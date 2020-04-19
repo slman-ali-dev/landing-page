@@ -48,7 +48,27 @@
       transform: scale(1.2);
   }
 }
+.about-wrap .about-bordered {
+    padding: 0 0 15% 15%;
+}
+.about-wrap .about-bordered img {
+    border: 20px solid #f6f6f6;
+}
+.about-wrap .about-bg-img-setting {
+    height: 65%;
+    width: 75%;
+    z-index: -1;
+    display: block;
+    left: 15px;
+    bottom: 0;
+    position: absolute;
+      top:25%;
 
+}
+.gradient-bg {    background: #062379;
+    background: -moz-linear-gradient(left, #0e2568 2%, #7202bb 82%);
+    background: -webkit-linear-gradient(left, #0e2568 2%,#7202bb 82%);
+    background: linear-gradient(to right, #0e2568 2%,#7202bb 82%);}
 
 .or-line {
     div {

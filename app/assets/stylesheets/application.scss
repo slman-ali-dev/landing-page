@@ -95,12 +95,32 @@
    width: 100%;
  }
  
- .background {
+ .background1 {
    // background-color: $background-color;
- background: url('https://image.freepik.com/free-photo/top-view-dark-trendy-workspace-with-laptop-computer-coffee-cup-office-supplies_67155-4343.jpg') no-repeat;
- background-size: cover;
- background-attachment: fixed;
+   background-image:url("mhara.quiq-edu.com/mobile-online.png") no-repeat;
+
+   background-attachment: scroll;
+   background-size: auto;
+
+background-size: 1700px 800px;
+
+background-attachment: fixed;
+
+height: 1000px;
  }
+ .background {
+  // background-color: $background-color;
+  background-image:url("mhara.quiq-edu.com/mobile-online.png") no-repeat;
+
+  background-attachment: scroll;
+  background-size: auto;
+
+background-size: 1700px 500px;
+
+background-attachment: fixed;
+
+}
+ 
  .welcome{
    color:white;
  }
@@ -212,3 +232,4 @@
  .card{
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
+ 
