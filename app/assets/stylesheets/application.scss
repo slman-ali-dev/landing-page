@@ -99,32 +99,34 @@
    // background-color: $background-color;
    background-image:url('https://mhara.quiq-edu.com/mobile-online.png') ;
 
-   background-attachment: scroll;
-   background-size: auto;
+   background-attachment: fixed;
 
-background-size: 1700px 800px;
+background-size: cover;
 
 background-attachment: fixed;
 
-height: 1000px;
+height: 600px;
  }
  .background {
-  // background-color: $background-color;
-  background-image:url('https://mhara.quiq-edu.com/mobile-online.png') ;
+  background-color: $background-color;
 
-  background-attachment: scroll;
-  background-size: auto;
+  background-attachment: fixed;
 
-background-size: 1700px 500px;
-
-background-attachment: fixed;
+  background-size:cover;
 
 }
  
  .welcome{
    color:white;
+   margin-top:140px;
  }
- 
+ .lead1{
+   color:white;
+   text-align: right;
+   font-weight:bold;
+   line-height:1.8;
+
+ }
  .error-section {
    background-color: $error-background-color;
  }

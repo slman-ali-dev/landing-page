@@ -20,9 +20,8 @@
         <%= image_tag(logo_image, class: "header-brand-img", alt:"") %>
       <% end %>
 
-      <div class="d-flex ml-auto">
+      <div class="d-flex  ml-auto">
         <% if current_user %>
-
           <% if current_user.has_role? :super_admin %>
             <% admins_page = params[:controller] == "admins" && params[:action] == "index" ? "active" : "" %>
             <%= link_to admins_path, class: "px-3 mx-1 mt-1 header-nav #{admins_page}" do %>
