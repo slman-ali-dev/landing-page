@@ -75,6 +75,7 @@
  
  .header {
    height: $header-height;
+   
  }
  
  .wrapper {
@@ -100,18 +101,21 @@ background-size: cover;
 
 background-attachment: fixed;
 
-height: 600px;
+height: 500px;
  }
  .welcome{
   color:white;
-  margin-top:140px;
+  margin-top:70px;
 }
 .lead1{
   color:white;
   text-align: right;
   font-weight:bold;
-  line-height:1.8;
+  line-height:5;
 
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
  .error-section {
    background-color: $error-background-color;
