@@ -75,8 +75,6 @@
  
  .header {
    height: $header-height;
- position: fixed;
- 
  }
  
  .wrapper {
@@ -90,38 +88,10 @@
    width: 100%;
  }
  
- .background1 {
-   // background-color: $background-color;
-   background-image:url('https://mhara.quiq-edu.com/mobile-online.png') ;
-
-   background-attachment: fixed;
-
-background-size: cover;
-
-background-attachment: fixed;
-
-height: 600px;
- }
  .background {
-  background-color: $background-color;
-
-  background-attachment: fixed;
-
-  background-size:cover;
-
-}
+   background-color: $background-color;
+ }
  
- .welcome{
-   color:white;
-   margin-top:140px;
- }
- .lead1{
-   color:white;
-   text-align: right;
-   font-weight:bold;
-   line-height:1.8;
-
- }
  .error-section {
    background-color: $error-background-color;
  }
@@ -166,7 +136,7 @@ height: 600px;
  .cookies-banner {
    height: $footer-height;
    color: white;
-   background-color: $button-color-blue
+   background-color: $button-color-blue;
  
    #cookies-agree-button {
      background-color: green !important;
@@ -180,15 +150,7 @@ height: 600px;
  .list-group-item-action.active {
    color: $primary;
  }
- .header{
-   position: fixed;
  
- top: 0;
- 
- width: 1700px;
- 
- z-index: 10;
- }
  .header .header-nav {
    color: $text-muted !important;
  
@@ -219,14 +181,3 @@ height: 600px;
  #delete-confirm:disabled {
    cursor: not-allowed;
  }
- #create-room-block
- {
-   border: 1px dashed lightgray;
- }
- .text{
- color:white;
- }
- .card{
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- }
- 
