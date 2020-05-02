@@ -73,8 +73,8 @@ module BbbServer
       "meta_bbb-origin": "Greenlight",
       "meta_bbb-origin-server-name": options[:host],
 
-      lockSettingsDisableCam: true,
-      lockSettingsDisableNote: true
+      # lockSettingsDisableCam: true,
+      # lockSettingsDisableNote: true
     }
 
     create_options[:guestPolicy] = "ASK_MODERATOR" if options[:require_moderator_approval]
